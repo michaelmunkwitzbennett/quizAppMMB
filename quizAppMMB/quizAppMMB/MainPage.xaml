@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:quizAppMMB"
+             x:Class="quizAppMMB.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="LabelStyle1" TargetType="Label">
+                <Setter Property="TextColor" Value="#1D3557"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="BackgroundColor" Value="#F1FAEE"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <Style x:Key="LabelStyle2" TargetType="Label">
+                <Setter Property="TextColor" Value="#E63946"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="BackgroundColor" Value="#F1FAEE"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Entry x:Name="yourName" Text="" />
+        <Entry x:Name="yourAge" Text="" />
+        <Button Text="Start" Clicked="start_clicked" x:Name="start_btn"/>
+
+        <Image x:Name="the_image" Source="testpng.png" IsVisible="false"></Image>
+
+        <Label Text="placeholder" x:Name="question_label" IsVisible="false" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Style="{StaticResource LabelStyle1}">
+            <Label.GestureRecognizers>
+                <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped"/>
+                <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="SWIPE LEFT for FALSE, SWIPE RIGHT for TRUE" x:Name="lastResult" IsVisible="false" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Style="{StaticResource LabelStyle2}"/>
+    </StackLayout>
+
+</ContentPage>

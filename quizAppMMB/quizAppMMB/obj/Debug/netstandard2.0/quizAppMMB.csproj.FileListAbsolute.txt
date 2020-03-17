@@ -1,0 +1,12 @@
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\bin\Debug\netstandard2.0\quizAppMMB.deps.json
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\bin\Debug\netstandard2.0\quizAppMMB.dll
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\bin\Debug\netstandard2.0\quizAppMMB.pdb
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\quizAppMMB.csprojAssemblyReference.cache
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\App.xaml.g.cs
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\quizAppMMB.csproj.CoreCompileInputs.cache
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\quizAppMMB.AssemblyInfoInputs.cache
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\quizAppMMB.AssemblyInfo.cs
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\XamlC.stamp
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\quizAppMMB.dll
+c:\users\scawd\source\repos\quizAppMMB\quizAppMMB\quizAppMMB\obj\Debug\netstandard2.0\quizAppMMB.pdb
